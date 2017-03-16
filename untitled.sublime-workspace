@@ -1,0 +1,434 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"H",
+				"HEADER\tTag"
+			],
+			[
+				"font-s",
+				"font-size"
+			],
+			[
+				"backg",
+				"background-color"
+			],
+			[
+				"text",
+				"text-decoration-color"
+			],
+			[
+				"back",
+				"background-color"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/Users/williambuckley/Desktop/FEWD/workspace/homework-portfolio/about_me.html",
+			"settings":
+			{
+				"buffer_size": 1155,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "<html>\n<head>\n\t<title>CSS Inheritance & Cascade Challenge</title>\n</head>\n<style>\n\n\n\t/*  THIS IS YOUR CHALLENGE (AND A MASSIVE CSS COMMENT!)\n\n\tFOR EACH OF THE FOLLOWING QUESTIONS, WHICH OF THE FOLLOWING POSSIBLE REASONS (EITHER INHERITANCE OR RELATING TO THE CASCADE) IS THE BEST EXPLANATION FOR WHAT YOU ARE SEEING RENDERED IN THE BROWSER?\n\n\tPossible reasons:\n\t-----------------\n\n\tinheritance\n\timportance (relates to cascade)\n\tsource order (relates to cascade)\n\tspecificity (relates to cascade)\n\torigin (relates to cascade)\n\n\t------------------------------\n\n\t1. In the first rule, a declaration for the font-family property is made, with the <body> element as the selector.  Why do the paragraphs also appear as sans-serif? --<p> is within <body>\ninheritance\n\t2. Why does the h1 tag appear red and not blue? ---the second h1 declaration with \"blue\" has more complexity\nsource order\n\t3. Why are the h2 tags orange, and not green? --!important\nimportance\n\t4. Why are the <span> tags in the paragraphs <p>, appearing green and not blue? ---p span selected as green\nspecificity\n\t5. Why is the last <span> larger font than the rest? --it's accompanied by an inline style tag\norigin\n\t*/\n\tbody {\n\t\tfont-family: sans-serif;\n\t\tpadding:5px;\n\t}\n\n\th1 {\n\t\tcolor:blue;\n\t}\n\n\th1 {\n\t\tfont-size:24px;\n\t\tfont-weight:bold;\n\t\tcolor:red;\n\t}\n\n\th2 {\n\t\tcolor: orange!important;\n\t}\n\n\th2 {\n\t\tcolor: green;\n\t}\n\n\tp span {\n\t\tcolor: green;\n\t\tfont-size:16px;\n\t}\n\n\tp {\n\t\tcolor: blue;\n\t}\n\n</style>\n<body>\n\t\n<h1>CSS Cascade & Inheritance challenge </h1>\n\n\t<h2>Paragraph 1</h2>\n\t<p>\n\t\t<span>Lorem Ipsum</span> is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.\n\t</p>\n\t<h2>Paragraph 2</h2>\n\t<p>\n\t\t<span>It was popularised</span> in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of <span style=\"font-size:19px;\">Lorem Ipsum.</span>\n\t</p>\n\n\n</body>\n</html>\n",
+			"file": "/Users/williambuckley/Desktop/FEWD/workspace/02_css_basics/css_cascade/index.html",
+			"file_size": 2030,
+			"file_write_time": 131339287600000000,
+			"settings":
+			{
+				"buffer_size": 2247,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/williambuckley/Desktop/FEWD/workspace/homework-portfolio/resume_page.html",
+			"settings":
+			{
+				"buffer_size": 1278,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/williambuckley/Desktop/FEWD/workspace/ga_press_release/style.css",
+			"settings":
+			{
+				"buffer_size": 486,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/williambuckley/Desktop/FEWD/workspace/ga_press_release/index.html",
+			"settings":
+			{
+				"buffer_size": 1370,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/williambuckley/Desktop/FEWD",
+		"/Users/williambuckley/Desktop/FEWD/cookie_recipe",
+		"/Users/williambuckley/Desktop/FEWD/FEWD_SM_25",
+		"/Users/williambuckley/Desktop/FEWD/workspace",
+		"/Users/williambuckley/Desktop/FEWD/workspace/02_css_basics",
+		"/Users/williambuckley/Desktop/FEWD/workspace/02_css_basics/css_cascade",
+		"/Users/williambuckley/Desktop/FEWD/workspace/Assignment",
+		"/Users/williambuckley/Desktop/FEWD/workspace/Week_01_Basics"
+	],
+	"file_history":
+	[
+		"/Users/williambuckley/Desktop/FEWD/workspace/homework-portfolio/Resume_page.html",
+		"/Users/williambuckley/Desktop/FEWD/workspace/Week_01_Basics/01_html_basics/ga_press_release/index.html",
+		"/Users/williambuckley/Desktop/FEWD/workspace/Week_01_Basics/homework-portfolio/index.html",
+		"/Users/williambuckley/Desktop/FEWD/workspace/Nonsense_and_Timecube.html",
+		"/Users/williambuckley/Desktop/FEWD/cookie_recipe/fewd.sublime-project",
+		"/Users/williambuckley/Desktop/FEWD/FEWD_SM_25/Week_01_Basics/Assignment/README.md",
+		"/Users/williambuckley/Desktop/FEWD/workspace/another_test.html",
+		"/Users/williambuckley/Desktop/FEWD/workspace/test.html",
+		"/Users/williambuckley/Desktop/FEWD/cookies.jpg",
+		"/Users/williambuckley/Desktop/FEWD/cookie_recipe/anything.html",
+		"/Users/williambuckley/Desktop/FEWD/workspace/intro/sushi",
+		"/Users/williambuckley/Desktop/FEWD/workspace/intro/skid row",
+		"/Users/williambuckley/Desktop/FEWD/workspace/intro/will",
+		"/Users/williambuckley/Downloads/MjY3NzU5MTMzODE=.xml",
+		"/Users/williambuckley/Downloads/cpc_careerbuilder_bridgefeed (6)",
+		"/Users/williambuckley/Downloads/2506_7354_97ef69b54e4795d972f668e52b0b3c4df06d609c756f9d768608bbsVGCF.xml",
+		"/Users/williambuckley/Downloads/incoming_jobs_theemploymentnetworkllc_cpc_2016-10-07T19-29-13.xml",
+		"/Users/williambuckley/Downloads/Jobs 4.xml",
+		"/Users/williambuckley/Downloads/2386_7080_23ec774ea5368fa9c3e95fbc810475e0377bd1a27a3f64ac212a5oqBQ7J.xml",
+		"/Users/williambuckley/Downloads/incoming_jobs_careerbuilder_mediumcompanies_cpc_2016-10-03T21-48-44.xml",
+		"/Users/williambuckley/Downloads/incoming_jobs_careerbuilder_webdevelopers_cpc_2016-10-03T12-05-19.xml",
+		"/Users/williambuckley/Downloads/incoming_jobs_startwire_l2_cpc_2016-09-27T13-19-59.xml",
+		"/Users/williambuckley/Downloads/1929_5639_314108f5043d8d87cd10e53c2a36d4877f9095b2ea7401582af669ZckuJ.xml",
+		"/Users/williambuckley/Downloads/incoming_jobs_recruitics_physicianemployment_cpc_2016-08-05T04-05-14.xml",
+		"/Users/williambuckley/Downloads/incoming_jobs_careerbuilder_knight_transportation_cpc_2016-08-03T10-37-28.xml",
+		"/Users/williambuckley/Downloads/incoming_jobs_findatruckerjob_andrus_cpc_2016-08-01T11-18-51.xml",
+		"/Users/williambuckley/Downloads/incoming_jobs_careerbuilder_avon_cpc_2016-07-11T19-07-00.xml",
+		"/Users/williambuckley/Downloads/incoming_jobs_careerbuilder_avon_cpc_2016-07-06T08-43-24.xml",
+		"/Users/williambuckley/Desktop/feed.xml",
+		"/Users/williambuckley/Downloads/Mjc4OTcwNDYwMzU= (1).xml",
+		"/Users/williambuckley/Downloads/zip_recruiter (1).xml",
+		"/Users/williambuckley/Downloads/zip_recruiter.xml",
+		"/Users/williambuckley/Downloads/MjczODY4MTMzMjI=.xml",
+		"/Users/williambuckley/Downloads/incoming_jobs_tmp_becton_dickinson_san_antonio_cpc_2016-04-21T18-57-43.xml",
+		"/Users/williambuckley/Downloads/feeds (3).xml",
+		"/Users/williambuckley/Downloads/feeds (2).xml",
+		"/Users/williambuckley/Downloads/feed (3).xml"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"group_name><![CDATA[Medium-Companie]]></group_name>",
+			"group_name><![CDATA[High-Companies]]></group_name>",
+			"group_name><![CDATA[High Companies]]></group_name>",
+			"group_name><![CDATA[Medium Companies]]></group_name>",
+			"soilant",
+			"knight-transportation]>",
+			"<group_name><![CDATA[knight-transportation]>",
+			"</job>",
+			"<group_name><![CDATA[Avon]]>",
+			"<cpc>",
+			"elevated p4p"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 2,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/Users/williambuckley/Desktop/FEWD/workspace/homework-portfolio/about_me.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1155,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								876,
+								876
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 532.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/Users/williambuckley/Desktop/FEWD/workspace/02_css_basics/css_cascade/index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2247,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1177,
+								1177
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 396.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/Users/williambuckley/Desktop/FEWD/workspace/homework-portfolio/resume_page.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1278,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 157.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/Users/williambuckley/Desktop/FEWD/workspace/ga_press_release/style.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 486,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "/Users/williambuckley/Desktop/FEWD/workspace/ga_press_release/index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1370,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								490,
+								490
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 162.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "untitled.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 238.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
